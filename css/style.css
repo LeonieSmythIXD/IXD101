@@ -1,0 +1,38 @@
+/*------- GLOBAL STYLING-------*/
+body{
+    color: black;
+        font-style: normal;
+}
+
+section{
+    width: 80%;
+    max-width: 800px;
+    margin: auto;
+}
+
+header{
+    width: 80%;
+    max-width: 800px;
+    margin: auto;
+    color: antiquewhite;
+}
+
+
+/*-------TYPOGRAPHY------*/
+
+
+h1, h2 {
+    font-family: 
+}
+
+/*ESTABLISH YOUR OWN TYPOGRAPHIC HIERARCHY WHICH SHOULD BE BASED ON YOUR FONT CHOICES-------*/
+
+h1 {font-size: 5em; margin-bottom: 0.5m}
+h2 {font-size: 2.75; margin: 1em 0; color: aqua}
+
+p {font-size: 1.25;
+    line-height: 1.5;
+    margin-bottom: 1em;
+    font-weight:  200;
+    }
+
