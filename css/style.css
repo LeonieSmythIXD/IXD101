@@ -47,12 +47,12 @@ header h1 {
 
 /*----------LINKS---------*/
 
-a {
-    color: aqua;
+a:hover {
+    color: orange;
     text-decoration: none;
 }
 
-a:hover{
+a:
     color: wheat;
     border-bottom: 1px dotted;
 }
@@ -65,9 +65,9 @@ nav {
     left: 0;
     margin: 0%;
     width: 90%;
-    background-color: wheat;
+    background-color: lightgrey;
     padding: 1em 0;
-    font-size: 0.85em
+    font-size: 0.85em;
 }
 
 nav ul {
@@ -148,7 +148,7 @@ li {
     padding: 10px 0;
     font-size: 0.85em;
     font-weight: bold;
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: wheat;
     margin-bottom: 0;
   }
   
@@ -207,8 +207,8 @@ nav {
   top: 0;
   left: 0;
   margin: 0;
-  width: 90%;
-  background-color: #fff;
+  width: 100%;
+  background-color: whitesmoke;
   padding: 1em 0;
   font-size: 0.85em;}
 
@@ -225,10 +225,10 @@ nav ul li {
   background: none;}
 
 nav a:link {
-  color: #439ff6;}
+  color: wheat;}
 
 nav a:visited {
-  color: #439ff6;}
+  color: #439flf6;}
 
 nav a:hover {
   border-bottom: none;
@@ -255,8 +255,8 @@ footer {
   font-size: 0.707em;
   padding: 2em 0 8em 0;
   margin: auto;
-  color: #fafafa;
-  background: #439ff6;
+  color: wh;
+  background-color: whitesmoke;
 }
 
 .connections{
