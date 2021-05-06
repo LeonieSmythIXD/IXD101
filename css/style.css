@@ -11,10 +11,10 @@ section{
 }
 
 header{
-    width: 80%;
-    max-width: 800px;
+    width: 40;
+    max-width: 400px;
     margin: auto;
-    color: black;
+    color: white;
 }
 
 
@@ -27,8 +27,8 @@ h1, h2 {
 
 /*ESTABLISH YOUR OWN TYPOGRAPHIC HIERARCHY WHICH SHOULD BE BASED ON YOUR FONT CHOICES-------*/
 
-h1 {font-size: 5em; margin-bottom: 0.5em}
-h2 {font-size: 2.75em; margin: 1em 0; color: aqua}
+h1 {font-size: 1em; margin-bottom: 0.5em; color: navy}
+h2 {font-size: 2.75em; margin: 1em 0; color: navy}
 
 p {font-size: 1.25;
     line-height: 1.5;
@@ -48,12 +48,12 @@ header h1 {
 /*----------LINKS---------*/
 
 a:hover {
-    color: orange;
+    color: skyblue;
     text-decoration: none;
 }
 
-a:
-    color: wheat;
+a: {
+    color: white;
     border-bottom: 1px dotted;
 }
 
@@ -65,7 +65,7 @@ nav {
     left: 0;
     margin: 0%;
     width: 90%;
-    background-color: lightgrey;
+    background-color: navy;
     padding: 1em 0;
     font-size: 0.85em;
 }
@@ -84,11 +84,11 @@ nav ul li {
 }
 
 nav a:link {
-    color: coral;
+    color: skyblue;
 }
 
 nav a:visited {
-    color: coral;
+    color: skyblue;
 }
 
 nav a:hover {
@@ -114,6 +114,13 @@ img {
     max-width: 100%;
     
 }
+
+.travel app {display: block;
+    margin: auto;
+    max-width: 100%;}
+    
+
+    
 
 /*------PORTFOLIO---------*/
 
@@ -208,7 +215,7 @@ nav {
   left: 0;
   margin: 0;
   width: 100%;
-  background-color: whitesmoke;
+  background-color: darkorange;
   padding: 1em 0;
   font-size: 0.85em;}
 
@@ -225,7 +232,7 @@ nav ul li {
   background: none;}
 
 nav a:link {
-  color: wheat;}
+  color: blue;}
 
 nav a:visited {
   color: #439flf6;}
@@ -256,7 +263,7 @@ footer {
   padding: 2em 0 8em 0;
   margin: auto;
   color: wh;
-  background-color: whitesmoke;
+  background-color: darkorange;
 }
 
 .connections{
